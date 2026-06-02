@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perodic Table (Day-3 2nd Assignment)</title>
+    <style>
+         *{
+            font-family: Inter,sans-serif;
+            }
+        .page{
+            box-sizing: border-box;
+            margin: auto;
+            width: 85%;
+            height: 850px ;
+        }
+        .heading{
+            margin: auto;
+            width: 100%;
+            height: 8%;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .table{
+            width: 100%;
+            height: 60%;
+            margin: auto;
+        }
+        .row{
+            display: flex;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .box{
+            box-sizing: border-box;
+            width: 60px;
+            height: 60px;
+            margin: auto;
+            line-height: 30%;
+        }
+        .box:not(.empty, .cream){
+            border: 3px solid black;
+        }
+        .number{
+            font-size: 20px;
+            line-height: 18px;
+        }
+        .helium{
+            color: white;
+            background-color: #AA0000;
+            font-size: 27px;
+            line-height: 7px;
+        }
+        .row .yellow{
+            background-color: #FFCC00;
+        }
+        .raddish{
+            background-color: #FF5555;
+        }
+        .green{
+            background-color: #89A02C;;
+        }
+        .pink{
+            background-color: #FF0066;
+        }
+        .l_green{
+            background-color: #5AA02C;
+        }
+        .purple{
+            background-color: #AA0087;
+        }
+        .orange{
+            background-color: #FF6600;
+        }
+        .blue{
+            background-color: #0000FE;
+        }
+        .cream{
+            background-color: #FFE6D5;
+            border: 7px solid black;
+        }
+        .grey{
+            background-color: #6D535E;
+        }
+
+
+        .bottom_table{
+            width: 50%;
+            height: 12%;
+            margin: auto;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid black;
+            margin-top: 25px;
+        }
+        .bottom_top{
+            width: 100%;
+            height: 50%;
+            background-color: #47582E;
+            display: flex;
+            box-sizing: border-box;;
+        }
+        .bottom_row_1{
+            height: 100%;
+            width: 7%;
+            border-right: 1px solid black;
+        }
+        .bottom_bottom{
+            width: 100%;
+            height: 50%;
+            background-color: #95BC5F;
+            display: flex;
+            box-sizing: border-box;
+            border-top: 1px solid black;
+            
+        }
+
+        .silicon{
+            width: 180px;
+            height: 180px;
+            border: 3px solid black;
+            position: absolute;
+            left: 367px;
+            top: 120px;
+            background-color: #89A02C;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="page">
+
+        <div class="heading">
+            <h1> THE PERIODIC TABLE OF ELEMENTS</h1>     
+        </div>
+
+        <div class="table">
+            <!-- 1 -->
+            <div class="silicon">
+                <h1 class="si">Si</h1>
+            </div>
+            <div class="row">
+                <div class="box helium"><p>H</p></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box yellow"></div>
+            </div>
+            <!-- 2 -->
+            <div class="row">
+                <div class="box green"></div>
+                <div class="box raddish number"><p>4</p></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box purple"></div>
+                <div class="box l_green"></div>
+                <div class="box l_green"></div>
+                <div class="box l_green"></div>
+                <div class="box pink"></div>
+                <div class="box yellow"></div>
+            </div>
+            <!-- 3 -->
+            <div class="row">
+                <div class="box green"></div>
+                <div class="box raddish number"><p>12</p></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box empty"></div>
+                <div class="box orange"></div>
+                <div class="box purple"></div>
+                <div class="box l_green"></div>
+                <div class="box l_green"></div>
+                <div class="box pink"></div>
+                <div class="box yellow"></div>
+            </div>
+            <!-- 4 -->
+            <div class="row">
+                <div class="box green"></div>
+                <div class="box raddish number"><p>20</p></div>
+                <div class="box empty"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box orange"></div>
+                <div class="box purple"></div>
+                <div class="box purple"></div>
+                <div class="box l_green"></div>
+                <div class="box pink"></div>
+                <div class="box yellow"></div>
+            </div>
+            <!-- 5 -->
+            <div class="row">
+                <div class="box green"></div>
+                <div class="box raddish number"><p>38</p></div>
+                <div class="box empty"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box orange"></div>
+                <div class="box orange"></div>
+                <div class="box purple"></div>
+                <div class="box purple"></div>
+                <div class="box pink"></div>
+                <div class="box yellow"></div>
+            </div>
+            <!-- 6 -->
+            <div class="row">
+                <div class="box green"></div>
+                <div class="box raddish number"><p>56</p></div>
+                <div class="box cream"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box orange"></div>
+                <div class="box orange"></div>
+                <div class="box orange"></div>
+                <div class="box purple"></div>
+                <div class="box pink"></div>
+                <div class="box yellow"></div>
+            </div>
+            <!-- 7 -->
+            <div class="row">
+                <div class="box green"></div>
+                <div class="box raddish number"><p>88</p></div>
+                <div class="box cream"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box blue"></div>
+                <div class="box grey"></div>
+                <div class="box grey"></div>
+                <div class="box grey"></div>
+                <div class="box grey"></div>
+                <div class="box grey"></div>
+                <div class="box grey"></div>
+            </div>
+
+        </div>
+
+
+        <div class="bottom_table">
+            <div class="bottom_top">
+                <div class="bottom_row_1"><p>La</p></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                
+            </div>
+
+            <div class="bottom_bottom">
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"><p>Am</p></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"></div>
+                <div class="bottom_row_1"><p>No</p></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
