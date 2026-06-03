@@ -12,16 +12,17 @@
             box-sizing: border-box;
             margin: auto;
             width: 85%;
-            height: 850px ;
+            height: 900px ;
+            background-color: white;
         }
         .heading{
+            font-size: 40px;
             margin: auto;
             width: 100%;
-            height: 8%;
+            height: 10%;
             text-align: center;
-            padding-top: 40px;
         }
-        .table{
+        .table:not(.silicon){
             width: 100%;
             height: 60%;
             margin: auto;
@@ -30,7 +31,7 @@
             display: flex;
             margin: auto;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .box{
             box-sizing: border-box;
@@ -92,7 +93,8 @@
             text-align: center;
             box-sizing: border-box;
             border: 1px solid black;
-            margin-top: 25px;
+            margin-top: 80px;
+            margin-right: 380px;
         }
         .bottom_top{
             width: 100%;
@@ -121,24 +123,44 @@
             height: 180px;
             border: 3px solid black;
             position: absolute;
-            left: 367px;
-            top: 120px;
+            left: 375px;
+            top: 160px;
             background-color: #89A02C;
+            box-sizing: border-box;
+            display: flex;
         }
+        #si{
+            font-size: 70px;
+            line-height: 35px;
+            padding-left: 10px;
+        }
+        #na{
+            font-size: 20px;
+            padding-top: 110px;
+            margin-left: -55px;
+        }
+        #no{
+            font-size: 22px;
+            padding-left: 65px;
+            line-height: 10px;
+        }
+        
 
     </style>
 </head>
-<body>
+<body style="background-color: black;;">
     <div class="page">
 
         <div class="heading">
-            <h1> THE PERIODIC TABLE OF ELEMENTS</h1>     
+            <p> THE PERIODIC TABLE OF ELEMENTS</p>     
         </div>
 
         <div class="table">
             <!-- 1 -->
             <div class="silicon">
-                <h1 class="si">Si</h1>
+                <p id="si">Si</p>
+                <p id="na">Silicon</p>
+                <p id="no">14</p>
             </div>
             <div class="row">
                 <div class="box helium"><p>H</p></div>
