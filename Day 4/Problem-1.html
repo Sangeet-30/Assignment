@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Masai Calculator </title>
+        <style>
+            
+            #heading{
+                color: #018080;
+                text-align: center;
+                font-size: 25px;
+            }
+            #box{
+                margin: auto;
+                width: 400px;
+                height: 480px;
+                margin-top: 70px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                box-sizing: border-box;
+                padding-top: 50px;
+                padding-bottom: 30px;
+            }
+            #screen{
+                width: 75%;
+                height: 15%;
+                border-radius: 10px;
+                margin: auto;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            .row{
+                width: 78%;
+                height: 17%;
+                margin: auto;
+                text-align: center;
+                display: flex;
+                margin-top: 10px;
+            }
+            .row>div{
+                width: 22%;
+                height: 100%;
+                border-radius: 10px;
+                margin: auto;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                line-height: 30px;
+            }
+            .row>.black{
+                color: white;
+                background-color: black;
+            }
+            .row>.red{
+                color: white;
+                background-color: red;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="heading">
+            <h1>Masai Calculator</h1>
+        </div>
+
+        <div id="box">
+            <div id="screen"></div>
+            <!-- 1 -->
+            <div class="row">
+                <div> <h2>1</h2> </div>
+                <div> <h2>2</h2> </div>
+                <div> <h2>3</h2> </div>
+                <div class="black"> <h2>+</h2> </div>
+            </div>
+            <!-- 2 -->
+            <div class="row">
+                <div> <h2>4</h2> </div>
+                <div> <h2>5</h2> </div>
+                <div> <h2>6</h2> </div>
+                <div class="black"> <h2>-</h2> </div>
+            </div>
+            <!-- 3 -->
+            <div class="row">
+                <div> <h2>7</h2> </div>
+                <div> <h2>8</h2> </div>
+                <div> <h2>9</h2> </div>
+                <div class="black"> <h2>*</h2> </div>
+            </div>
+            <!-- 4 -->
+            <div class="row">
+                <div class="red"> <h2>C</h2> </div>
+                <div> <h2>0</h2> </div>
+                <div class="black"> <h2>=</h2> </div>
+                <div class="black"> <h2>/</h2> </div>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>
