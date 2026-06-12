@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preclasses</title>
+
+</head>
+<body>
+    
+    <p id="para">Pre-class Assignment</p>
+    <input type="text" placeholder="Enter your name" id="name">
+    <h3 id="Display_Name"> Input will be display here:- </h3>
+    <button onclick="Print()" id="Login_button">Submit</button>
+
+    
+</body>
+</html>
+
+<script>
+    //javaScript
+    let username = document.getElementById("name");
+    let h1= document.getElementById("Display_Name")
+    ;
+    function Print(){
+        h1.innerText=`Entered name:${username.value}`}
+
+
+</script>    
